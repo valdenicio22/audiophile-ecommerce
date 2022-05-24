@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
       font-size: 62.5%; //10px - 1rem
     }
     body {
-      font-size: ${theme.font.sizes.large};
+      font-size: ${theme.font.sizes.medium};
       -webkit-font-smoothing: antialiased;
     }
     body,
