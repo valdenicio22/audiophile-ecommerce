@@ -19,8 +19,11 @@ export default {
     primary: '#D87D4A',
     lightPrimary: '#FBAF85',
     black: '#000000',
-    white: '#ffffff',
-    gray: '#f1f1f1',
+    lightBlack: '#191919',
+    mediumBlack: '#141414',
+    white: '#FFFFFF',
+    gray: '#979797',
+    lighterGray: '#f1f1f1',
     lightGray: '#fafafa'
   },
   containers: {
