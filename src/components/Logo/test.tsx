@@ -1,9 +1,9 @@
-import { render } from '@testing-library/react'
+import { renderWithThemeProvider } from '../../utils/renderWithThemeProvider'
 
 import Logo from '.'
 
 describe('<Logo />', () => {
-  it('should render the heading', () => {
-    render(<Logo />)
+  it('should render the Logo', () => {
+    renderWithThemeProvider(<Logo />)
   })
 })
